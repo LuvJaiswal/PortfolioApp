@@ -11,6 +11,8 @@ code {
 } */
 
 body {
+	background-image: linear-gradient(#c6ffdd, #fbd786, #f7797d);
+	background-attachment: fixed;
 }
 
 .row {
@@ -22,10 +24,14 @@ body {
 }
 
 .app_sidebar {
-	background-color: aqua;
-
+	background-color: #fff;
+	height: 100%;
+	border-radius: 20px;
+	padding: 25px 15px;
 }
 
 .app_main-content {
-	background-color: blueviolet;
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 25px 15px;
 }

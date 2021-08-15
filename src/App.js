@@ -6,16 +6,18 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="row">
-          <div className="col-3 app_sidebar">
-            sidebar
+          <div className="col-lg-3">
+            <div className="app_sidebar">
+              sidebar
+            </div>
           </div>
-          <div className="col-9 app_main-content">
+          <div className="col-lg-9 app_main-content">
             mainbar
 
           </div>
         </div>
       </div>
-    </div>
+    </div >
 
   );
 }
