@@ -15,6 +15,15 @@ body {
 	background-attachment: fixed;
 }
 
+a {
+	text-decoration: none;
+	color: #354548;
+}
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
 .row {
 	height: 90vh;
 }
@@ -23,7 +32,14 @@ body {
 	padding-top: 50px;
 }
 
-.app_sidebar {
+.app_main-content {
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 25px 15px;
+	box-shadow: 0 0 10px black;
+}
+
+.sidebar {
 	background-color: #fff;
 	height: 100%;
 	border-radius: 20px;
@@ -31,9 +47,44 @@ body {
 	box-shadow: 0 0 10px black;
 }
 
-.app_main-content {
-	background-color: #fff;
-	border-radius: 20px;
-	padding: 25px 15px;
-	box-shadow: 0 0 10px black;
+.sidebar_icon {
+	width: 25px;
+	height: 25px;
+}
+
+.sidebar_name {
+	font-family: Kaushan Script;
+	margin: 20px 0;
+}
+
+.sidebar_item {
+	margin-bottom: 6px;
+	padding-top: 6px;
+	height: 40px;
+	font-size: 1.0rem;
+	border-radius: 30px;
+}
+
+.sidebar_title {
+	background-color: #f1f1f1;
+	border-radius: 10px;
+}
+
+.sidebar_contact {
+	background-color: #f1f1f1;
+	padding: 2px 0;
+}
+
+.sidebar_email_me {
+	background-image: linear-gradient(to right bottom);
+	border-radius: 30px;
+	color: rgb(243, 243, 245);
+	margin: 15px 25px 0px;
+	cursor: pointer;
+	transition: all;
+	background: rgb(156, 194, 134);
+}
+
+.sidebar_email_me:hover {
+	transform: scale(1, 2);
 }
