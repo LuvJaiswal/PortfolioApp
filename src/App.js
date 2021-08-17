@@ -33,7 +33,7 @@ function App() {
                   <About />
                 </Route>
 
-                <Route exact path="/Projects" component={Projects} />
+                <Route path="/Projects" component={Projects} />
 
                 <Route>
                   <Redirect to="/" />
