@@ -39,6 +39,8 @@ a:hover {
 	box-shadow: 0 0 10px black;
 }
 
+/* sidebar */
+
 .sidebar {
 	background-color: #fff;
 	height: 100%;
@@ -87,4 +89,32 @@ a:hover {
 
 .sidebar_email_me:hover {
 	transform: scale(1, 2);
+}
+
+/* NavbAr */
+
+.navbar_items {
+	display: flex;
+}
+
+.navbar_active {
+	font-size: 2rem;
+	font-weight: 700;
+	color: rgb(8, 8, 8);
+	border-bottom: 4px solid #c26f49;
+}
+
+.navbar_item {
+	margin-right: 20px;
+	text-decoration: none;
+	color: #354358;
+	font-size: 1.3res;
+	cursor: pointer;
+}
+
+.navbar_item:hover {
+	background-color: -webkit-linear-gradient(#ca693d, #f7797d);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: teal;
 }
