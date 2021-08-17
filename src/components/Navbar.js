@@ -1,9 +1,23 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom'
 
 
 const Navbar = () => {
-    const [active, setActive] = useState('About')
+    const [active, setActive] = useState('')
+    useEffect(() => {
+        let currentURL = window.location.href
+        console.log(currentURL);
+
+        if (currentURL.endsWith('/'))
+            setActive('About');
+
+        else if (currentURL.endsWith('/projects'))
+            setActive('Projects')
+        else if (currentURL.endsWith('/resume'))
+            setActive('Resume')
+
+    }, [active])
+
     return (
         <div>
             <div className="navbar">

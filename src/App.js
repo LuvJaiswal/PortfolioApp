@@ -2,7 +2,8 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Redirect, Route } from 'react-router-dom';
+import { Switch } from "react-router";
 import About from './components/About';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
@@ -22,19 +23,22 @@ function App() {
             </div>
             <div className="col-lg-9 app_main-content">
               <Navbar />
+              <Switch>
 
-              <Route path="/Resume">
-                <Resume />
-              </Route>
+                <Route path="/Resume">
+                  <Resume />
+                </Route>
 
-              <Route path="/About">
-                <About />
-              </Route>
+                <Route exact path="/">
+                  <About />
+                </Route>
 
-              <Route path="/Projects" component={Projects} />
+                <Route exact path="/Projects" component={Projects} />
 
-
-
+                <Route>
+                  <Redirect to="/" />
+                </Route>
+              </Switch>
             </div>
           </div>
         </div>
