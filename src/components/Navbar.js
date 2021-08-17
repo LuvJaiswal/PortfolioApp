@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom'
+
+
 const Navbar = () => {
     const [active, setActive] = useState('About')
     return (
@@ -9,12 +12,20 @@ const Navbar = () => {
                 </div>
                 <div className="navbar_items">
                     {active !== 'About' &&
-                        <div className="navbar_item" onClick={() => setActive('About')}>About</div>
+                        <Link to="/About">
+                            <div className="navbar_item" onClick={() => setActive('About')}>About</div>
+                        </Link>
                     }
-                    {active !== 'Resume' ? <div className="navbar_item" onClick={() => setActive('Resume')}>Resume</div>
-                        : null
+                    {active !== 'Resume' ?
+                        <Link to="/Resume">
+                            <div className="navbar_item" onClick={() => setActive('Resume')}>Resume</div>
+                        </Link> : null
+
                     }
-                    {active !== 'Projects' && <div className="navbar_item" onClick={() => setActive('Projects')}>Projects</div>
+                    {active !== 'Projects' &&
+                        <Link to="/Projects">
+                            <div className="navbar_item" onClick={() => setActive('Projects')}>Projects</div>
+                        </Link>
                     }
                 </div>
             </div>
