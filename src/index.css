@@ -118,3 +118,24 @@ a:hover {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: teal;
 }
+
+/* about */
+
+.about{
+	padding:20px;
+}
+
+.aout_intro{
+	font-size: 1.1rem;
+	padding: 20px;
+}
+
+.about_container{
+	background-color:#fbd786 ;
+	padding: 20px;
+}
+.about_heading{
+	font-size: 25px;
+	font-weight: 700;
+	color: black;
+}

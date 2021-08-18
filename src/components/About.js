@@ -1,5 +1,6 @@
 import React from 'react';
 import api from '../assets/images/icons/front.png'
+import Skillcard from './Skillcard';
 
 const skills = [
     {
@@ -23,21 +24,13 @@ const About = () => {
                 <div className="row">
                     {
                         skills.map(skill =>
-                            <div className="col-lg-6">
-                                <div className="skill-card">
-                                    <img src={skill.icon} alt="icon" className="skill-card_icon" />
-                                    <div className="skill-card-body">
-                                        <h6 className="skill-card_title">{skill.title}</h6>
-                                        <p className="skill_card_content">{skill.about}</p>
-                                    </div>
-                                </div>
-                            </div>
+                            <Skillcard skill={skill} />
                         )
                     }
                 </div>
             </div>
-         
+
         </div>
-           );
+    );
 }
-            export default About;
+export default About;
