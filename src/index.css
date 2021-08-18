@@ -24,11 +24,11 @@ a:hover {
 	color: black;
 }
 
-.row {
+.app_row {
 	height: 90vh;
 }
 
-.container {
+.app_container {
 	padding-top: 50px;
 }
 
@@ -128,16 +128,18 @@ a:hover {
 .aout_intro {
 	font-size: 1.1rem;
 	padding: 20px;
+	margin: 10px 0;
 }
 
 .about_container {
 	background-color: #fbd786;
-	padding: 20px;
+	padding: 30px 20px;
 }
 .about_heading {
 	font-size: 25px;
 	font-weight: 700;
 	color: black;
+	margin-left: 10px;
 }
 
 /* Skill-card */

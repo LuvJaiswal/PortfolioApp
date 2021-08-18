@@ -12,7 +12,38 @@ const skills = [
         icon: api,
         title: "Backend",
         about: "work of Backend",
+    },
+    {
+        icon: api,
+        title: "Backend",
+        about: "work of Backend",
+    },
+    {
+        icon: api,
+        title: "Backend",
+        about: "work of Backend",
+    },
+    {
+        icon: api,
+        title: "Backend",
+        about: "work of Backend",
+    },
+    {
+        icon: api,
+        title: "Backend",
+        about: "work of Backend",
+    },
+    {
+        icon: api,
+        title: "Backend",
+        about: "work of Backend",
+    },
+    {
+        icon: api,
+        title: "Backend",
+        about: "work of Backend",
     }
+
 ]
 
 const About = () => {
