@@ -13,12 +13,12 @@ const skills = [
     {
         icon: front,
         title: "Frontend Development",
-        about: "I can build a beautiful frontend with HTML,BOOTSTRAP,CSS,Laravel, C# & React ",
+        about: "I can build a beautiful frontend using html,bootstrap,css,laravel, c# & react ",
     },
     {
         icon: back,
         title: "Backend Development",
-        about: "I can handle database,server, api, firebase as well as SQlite",
+        about: "I can handle database,server, api, firebase as well as SQlite for the backend development",
     },
     {
         icon: api,
@@ -33,7 +33,7 @@ const skills = [
     {
         icon: event,
         title: "Event Management",
-        about: "I can be an excellent event organizer, I have experience of different event management skills"
+        about: "I can be an excellent event organizer, I have an experience of different event management skills"
     },
     {
         icon: mobile,

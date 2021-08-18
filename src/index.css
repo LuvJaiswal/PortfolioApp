@@ -146,23 +146,25 @@ a:hover {
 
 .skill-card {
 	background-color: white;
-	margin: 10px;
-	padding: 10px;
-	display: flex;
+	margin: 15px;
+	padding: 15px;
+	display: inline-flex;
 	flex-direction: row;
-	border-radius: 10px;
+	border-radius: 15px;
 }
 
 .skill-card_icon {
-	width: 60px;
-	height: 60px;
+	width: 80px;
+	height: 80px;
 }
 
 .skill-card-body {
-	margin-left: 15px;
+	margin-left: 10px;
 }
-.skill-card_content {
-	margin: 0;
+.skill_card_content {
+	margin: 15;
 	font-size: 0.9rem;
-	color: thistle;
+	color: black;
+	font-style: italic;
+	text-align: center;
 }
