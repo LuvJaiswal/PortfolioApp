@@ -13,42 +13,42 @@ const skills = [
     {
         icon: front,
         title: "Frontend Development",
-        about: "work of Frontend",
+        about: "I can build a beautiful frontend with HTML,BOOTSTRAP,CSS,Laravel, C# & React ",
     },
     {
         icon: back,
         title: "Backend Development",
-        about: "work of Backend",
+        about: "I can handle database,server, api, firebase as well as SQlite",
     },
     {
         icon: api,
         title: "API DEVELOPMENT",
-        about: "work of API",
+        about: "I can develop robust Api using PHP & LARAVEL",
     },
     {
         icon: coder,
         title: "Competitive coder",
-        about: "work of Backend",
+        about: "I am a daily coder who spends most of time solving problems and coding",
     },
     {
         icon: event,
         title: "Event Management",
-        about: "work of Backend",
+        about: "I can be an excellent event organizer, I have experience of different event management skills"
     },
     {
         icon: mobile,
         title: "Mobile App Development",
-        about: "work of Backend",
+        about: "I can build mobile app for both Android(using java) and IOS(dart). I have experience working in both android studio and flutter ",
     },
     {
         icon: web,
         title: "Web App Development",
-        about: "work of Backend",
+        about: "I am compatible to develop websites using Bootstrap, Laravel & React js",
     },
     {
         icon: download,
         title: "UI/UX Designer",
-        about: "work of Backend",
+        about: "minimalistic user interface designer",
     }
 
 ]
