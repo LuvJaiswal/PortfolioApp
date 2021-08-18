@@ -121,21 +121,46 @@ a:hover {
 
 /* about */
 
-.about{
-	padding:20px;
+.about {
+	padding: 20px;
 }
 
-.aout_intro{
+.aout_intro {
 	font-size: 1.1rem;
 	padding: 20px;
 }
 
-.about_container{
-	background-color:#fbd786 ;
+.about_container {
+	background-color: #fbd786;
 	padding: 20px;
 }
-.about_heading{
+.about_heading {
 	font-size: 25px;
 	font-weight: 700;
 	color: black;
+}
+
+/* Skill-card */
+
+.skill-card {
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	border-radius: 10px;
+}
+
+.skill-card_icon {
+	width: 40px;
+	height: ;
+}
+
+.skill-card-body {
+	margin-left: 15px;
+}
+.skill-card_content {
+	margin: 0;
+	font-size: 0.9rem;
+	color: thistle;
 }

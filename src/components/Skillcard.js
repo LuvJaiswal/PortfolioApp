@@ -4,10 +4,10 @@ import skill from './About';
 const Skillcard = ({ skill: { icon, title, about } }) =>
     <div className="col-lg-6">
         <div className="skill-card">
-            <img src={skill.icon} alt="icon" className="skill-card_icon" />
+            <img src={icon} alt="icon" className="skill-card_icon" />
             <div className="skill-card-body">
-                <h6 className="skill-card_title">{skill.title}</h6>
-                <p className="skill_card_content">{skill.about}</p>
+                <h6 className="skill-card_title">{title}</h6>
+                <p className="skill_card_content">{about}</p>
             </div>
         </div>
     </div>
