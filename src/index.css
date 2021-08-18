@@ -125,7 +125,7 @@ a:hover {
 	padding: 20px;
 }
 
-.aout_intro {
+.about_intro {
 	font-size: 1.1rem;
 	padding: 20px;
 	margin: 10px 0;
@@ -154,8 +154,8 @@ a:hover {
 }
 
 .skill-card_icon {
-	width: 40px;
-	height: ;
+	width: 60px;
+	height: 60px;
 }
 
 .skill-card-body {
