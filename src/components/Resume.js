@@ -1,3 +1,54 @@
+import React from "react";
+import check from '../assets/images/icons/download.png'
+
+const languages = [
+    {
+
+        icon: 'check',
+        name: 'Python',
+        level: ''
+    },
+    {
+
+        icon: 'check',
+        name: 'Python',
+        level: ''
+    },
+    {
+
+        icon: 'check',
+        name: 'Python',
+        level: ''
+    },
+    {
+
+        icon: 'check',
+        name: 'Python',
+        level: ''
+    }
+]
+
+const tools = [
+    {
+
+        icon: 'check',
+        name: 'android studio',
+        level: ''
+    },
+    {
+
+        icon: 'check',
+        name: 'android studio',
+        level: ''
+    },
+    {
+
+        icon: 'check',
+        name: 'android studio',
+        level: ''
+    }
+]
+
 const Resume = () => {
     return (
         <div className="container resume">
@@ -43,8 +94,9 @@ const Resume = () => {
                     </h5>
                     <div className="resume-language_body">
                         {
-
-                        }
+                            languages.map(Laguage =>
+                                <Bar Language={Language} />
+                            )}
                     </div>
                 </div>
                 <div className="col-lg-6 resume-languages">
@@ -54,6 +106,8 @@ const Resume = () => {
                     <div className="resume-language_body">
                         {
 
+                            tools.map(tool =>
+                                <Bar tool={tool} />)
                         }
                     </div>
                 </div>
