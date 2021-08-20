@@ -1,30 +1,31 @@
 import React from "react";
 import check from '../assets/images/icons/download.png'
+import Bar from './Bar'
 
 const languages = [
     {
 
         icon: 'check',
         name: 'Python',
-        level: ''
+        level: '45'
     },
     {
 
         icon: 'check',
         name: 'Python',
-        level: ''
+        level: '60'
     },
     {
 
         icon: 'check',
         name: 'Python',
-        level: ''
+        level: '80'
     },
     {
 
         icon: 'check',
         name: 'Python',
-        level: ''
+        level: '40'
     }
 ]
 
@@ -33,19 +34,19 @@ const tools = [
 
         icon: 'check',
         name: 'android studio',
-        level: ''
+        level: '50'
     },
     {
 
         icon: 'check',
         name: 'android studio',
-        level: ''
+        level: '60'
     },
     {
 
         icon: 'check',
         name: 'android studio',
-        level: ''
+        level: '55'
     }
 ]
 
@@ -90,13 +91,14 @@ const Resume = () => {
             <div className="row">
                 <div className="col-lg-6 resume-languages">
                     <h5 className="resume-language_heading">
-                        Language and Framework
+                        Languages and Framework
                     </h5>
                     <div className="resume-language_body">
                         {
-                            languages.map(Laguage =>
-                                <Bar Language={Language} />
-                            )}
+                            languages.map(Language =>
+                                <Bar value={Language} />
+                            )
+                        }
                     </div>
                 </div>
                 <div className="col-lg-6 resume-languages">
@@ -107,7 +109,7 @@ const Resume = () => {
                         {
 
                             tools.map(tool =>
-                                <Bar tool={tool} />)
+                                <Bar value={tool} />)
                         }
                     </div>
                 </div>
