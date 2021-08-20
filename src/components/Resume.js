@@ -1,52 +1,57 @@
 import React from "react";
-import check from '../assets/images/icons/download.png'
+import check from '../assets/images/icons/back.png'
 import Bar from './Bar'
 
 const languages = [
     {
 
-        icon: 'check',
-        name: 'Python',
-        level: '45'
+        icon: check,
+        name: 'PHP',
+        level: `80`
     },
     {
 
         icon: 'check',
-        name: 'Python',
+        name: 'Java',
+        level: '90'
+    },
+    {
+
+        icon: 'check',
+        name: 'Reactjs',
+        level: '70'
+    },
+    {
+
+        icon: 'check',
+        name: 'Laravel',
         level: '60'
-    },
-    {
-
-        icon: 'check',
-        name: 'Python',
-        level: '80'
-    },
-    {
-
-        icon: 'check',
-        name: 'Python',
-        level: '40'
     }
 ]
 
 const tools = [
     {
-
         icon: 'check',
         name: 'android studio',
-        level: '50'
+        level: '69'
     },
     {
 
         icon: 'check',
         name: 'android studio',
-        level: '60'
+        level: '70'
     },
     {
 
         icon: 'check',
         name: 'android studio',
-        level: '55'
+        level: '80'
+    },
+    {
+
+        icon: 'check',
+        name: 'random studio',
+        level: '80'
     }
 ]
 
@@ -93,7 +98,7 @@ const Resume = () => {
                     <h5 className="resume-language_heading">
                         Languages and Framework
                     </h5>
-                    <div className="resume-language_body">
+                    <div className="resume-language_body mt-3">
                         {
                             languages.map(Language =>
                                 <Bar value={Language} />
@@ -105,7 +110,7 @@ const Resume = () => {
                     <h5 className="resume-language_heading">
                         Tools and Software
                     </h5>
-                    <div className="resume-language_body">
+                    <div className="resume-language_body mt-3">
                         {
 
                             tools.map(tool =>

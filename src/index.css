@@ -189,6 +189,9 @@ a:hover {
 .resume-card_title {
 	font-weight: 700;
 }
+.resume-card_name {
+	font-size: 16px;
+}
 
 .resume-card_details {
 	font-size: 0.9rem;
@@ -199,7 +202,7 @@ a:hover {
 
 .bar {
 	width: 90%;
-	background-color: #f7797d;
+	background-color: #72d177;
 	border-radius: 20px;
 	margin-bottom: 12px;
 }
@@ -210,7 +213,7 @@ a:hover {
 }
 
 .bar_wrapper {
-	background-image: linear-gradient(90deg, #00f260, #0575e6);
+	background-image: linear-gradient(90deg, #d2e091, #dc9989);
 	border-radius: 20px;
 	padding: 4px 14px;
 	color: #fff;
