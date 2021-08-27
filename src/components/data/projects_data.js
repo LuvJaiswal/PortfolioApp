@@ -1,5 +1,6 @@
-import coder from '../assets/images/icons/coder.jpg'
+import coder from '../../assets/images/icons/coder.jpg'
 import Projects from '../Projects';
+
 
 const data_projects = [
     {
@@ -20,5 +21,4 @@ const data_projects = [
 
 
 ]
-
-export default Projects_data;
+export default data_projects;

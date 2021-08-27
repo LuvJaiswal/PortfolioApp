@@ -1,4 +1,5 @@
 import data_projects from './data/projects_data'
+import ProjectCard from './Projectcard';
 const Projects = () => {
     return (
         <div>
