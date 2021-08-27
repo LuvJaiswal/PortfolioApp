@@ -1,7 +1,15 @@
+import data_projects from './data/projects_data'
 const Projects = () => {
     return (
         <div>
-            <h1>This is projects page take me there</h1>
+            <div className="container projects">
+                {
+                    data_projects.map(project =>
+                        <ProjectCard key={project.name}
+                            project={project} />
+                    )
+                }
+            </div>
         </div>
     );
 };
