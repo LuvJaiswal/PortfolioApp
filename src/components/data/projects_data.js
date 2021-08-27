@@ -1,10 +1,11 @@
 import coder from '../../assets/images/icons/coder.jpg'
+import hello from '../../assets/images/icons/mobile.jpg'
 import Projects from '../Projects';
 
 
 const data_projects = [
     {
-        name: 'JCB SAVIOUR',
+        name : 'JCB SAVIOUR',
         image: coder,
         deployed_url: "https://github.com/LuvJaiswal",
         github_url: 'https://github.com/LuvJaiswal',
@@ -13,7 +14,7 @@ const data_projects = [
 
     {
         name: 'Samridhhi School',
-        image: coder,
+        image: hello,
         deployed_url: "https://github.com/LuvJaiswal",
         github_url: 'https://github.com/LuvJaiswal',
         category: ['Android', 'PHP']

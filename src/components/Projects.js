@@ -1,15 +1,17 @@
 import data_projects from './data/projects_data'
-import ProjectCard from './Projectcard';
+import ProjectCard from './ProjectCard';
 const Projects = () => {
     return (
-        <div>
-            <div className="container projects">
+
+        <div className="container projects">
+
+            <div className="row">
                 {
                     data_projects.map(project =>
                         <ProjectCard key={project.name}
-                            project={project} />
-                    )
+                            project={project} />)
                 }
+
             </div>
         </div>
     );
