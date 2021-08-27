@@ -1,7 +1,6 @@
 import coder from '../assets/images/icons/coder.jpg'
 import Projects from '../Projects';
 
-
 const data_projects = [
     {
         name: 'JCB SAVIOUR',
