@@ -5,11 +5,11 @@ import Projects from '../Projects';
 
 const data_projects = [
     {
-        name : 'JCB SAVIOUR',
+        name: 'JCB SAVIOUR',
         image: coder,
         deployed_url: "https://github.com/LuvJaiswal",
         github_url: 'https://github.com/LuvJaiswal',
-        category: ['Android', 'Firebase']
+        category: ['Firebase']
     },
 
     {
@@ -17,7 +17,7 @@ const data_projects = [
         image: hello,
         deployed_url: "https://github.com/LuvJaiswal",
         github_url: 'https://github.com/LuvJaiswal',
-        category: ['Android', 'PHP']
+        category: ['Android', 'PHP', 'Java']
     },
 
 
